@@ -7,3 +7,4 @@ def converts_temperature(value, unit):
         print("Tidak ada unit")
 
 input_value = float(input("Masukkan Nilai Suhu:"))
+input_unit = input("Masukkan Unit Suhu(C/F):")
