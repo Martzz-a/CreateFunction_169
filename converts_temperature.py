@@ -5,3 +5,5 @@ def converts_temperature(value, unit):
         print(f"Konversi suhu dari Fahrenheit: {value}°F, ke Celcius: {(value-32)*5/9}°C")
     else:
         print("Tidak ada unit")
+
+input_value = float(input("Masukkan Nilai Suhu:"))
