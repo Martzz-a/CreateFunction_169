@@ -8,3 +8,5 @@ def converts_temperature(value, unit):
 
 input_value = float(input("Masukkan Nilai Suhu:"))
 input_unit = input("Masukkan Unit Suhu(C/F):")
+
+converts_temperature(input_value, input_unit)
